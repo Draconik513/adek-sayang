@@ -14,7 +14,7 @@ const BirthdayCountdown = ({ isIOS }) => {
   const [replyMessage, setReplyMessage] = useState("");
   const navigate = useNavigate();
 
-  const targetDate = new Date("2026-03-19T00:00:00");
+  const targetDate = new Date("2026-01-01T00:00:00");
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -62,7 +62,7 @@ const BirthdayCountdown = ({ isIOS }) => {
         className="text-center max-w-2xl"
       >
         <h1 className="text-4xl md:text-5xl font-bold text-pink-600 mb-8">
-          The Birthday of <span className="text-purple-600">Shinta Rahma</span>
+          The Birthday of <span className="text-purple-600">Sahrul Wijaya Rambe</span>
         </h1>
 
         <div className="mb-8">
@@ -108,10 +108,10 @@ const BirthdayCountdown = ({ isIOS }) => {
 
         <div className="bg-white p-6 rounded-xl shadow-lg mb-8 border border-pink-100">
           <h3 className="text-xl font-semibold text-purple-600 mb-2">
-            📅  19 Maret 2026 
+            📅  7 Januari 2026
           </h3>
           <p className="text-pink-600">
-           Tanggal dimana senyumanmu akan menerangi hariku🥹
+           Tanggal di mana adek lahir dan mungkin kakak ada di sana, mungkin juga kakak liat adek waktu bayi entah lah hahaha
           </p>
         </div>
 

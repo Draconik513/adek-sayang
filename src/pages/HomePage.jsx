@@ -21,7 +21,7 @@ const HomePage = ({ isIOS }) => {
         >
           <p className="text-lg text-pink-600 pt-4">Untuk yang tersayang</p>
           <h1 className="text-4xl font-extrabold bg-gradient-to-r from-pink-600 via-pink-400 to-purple-500 text-transparent bg-clip-text drop-shadow-md">
-            Shinta Rahma
+            Sahrul Wijaya Rambe
           </h1>
         </motion.div>
 
@@ -43,10 +43,8 @@ const HomePage = ({ isIOS }) => {
               loop
               muted
               playsInline
-              webkit-playsinline="true"
-              x-webkit-airplay="allow"
               className="w-full h-full object-cover"
-              style={{ transform: 'translateZ(0)' }}
+              style={{ transform: "translateZ(0)" }}
             />
           </div>
         </motion.div>
@@ -60,16 +58,18 @@ const HomePage = ({ isIOS }) => {
           <h2 className="text-3xl font-bold text-pink-600">
             Selamat Ulang Tahun Sayang!
           </h2>
-          <p className="text-xl text-pink-600">🎉 19 Maret 2026 🎉</p>
+          <p className="text-xl text-pink-600">🎉 🎉</p>
 
           <div className="mt-8 p-4 bg-white/80 backdrop-blur-sm rounded-lg max-w-md mx-auto border border-pink-200">
             <p className="text-pink-800 italic">
-              ""Untuk pacarku yang tercinta, di hari spesialmu ini aku ingin
-              mengucapkan... Terima kasih telah menjadi cahaya dalam hidupku.
-              Setiap detik bersamamu adalah anugerah.""
+              "Dear Adek sayang Sahrul Wijaya Rambe👶🏻 Happy birthday bondong
+              mengkekku 🥰 Maaf ya kalau terlalu banyak hal yang mengejutkan dan
+              membingungkan wkwkw.  Kadang kejutan datang bukan untuk menakuti,
+              tapi untuk mengingatkan bahwa kita masih peduli 💫 tapi percayalah
+              dek di lubuk hati kakak paling dalam sayang kakak samamu🫶🏻"
             </p>
             <p className="mt-4 text-right text-pink-600 font-medium">
-              - jayyyy
+              - Bujing Safitri 
             </p>
           </div>
         </motion.div>
@@ -84,9 +84,7 @@ const HomePage = ({ isIOS }) => {
             whileHover={{ scale: isIOS ? 1 : 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={() => navigate("/gift")}
-
             className="relative overflow-hidden bg-pink-500 text-white px-8 py-4 rounded-full shadow-lg text-xl font-bold"
-
           >
             <span className="button-text flex items-center">
               <span className="mr-2">🎁</span>

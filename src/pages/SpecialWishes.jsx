@@ -6,16 +6,9 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Sayangku 💖, hari ini adalah hari yang paling indah karena kamu lahir ke dunia. Aku berdoa semoga kamu selalu dalam lindungan Tuhan 🙏, diberi kesehatan, kekuatan, dan kebahagiaan tanpa akhir.
-
-Aku tahu hidup tidak selalu mudah, tapi aku ingin kamu tahu bahwa kamu tidak pernah sendiri. Aku akan selalu ada untuk mendukungmu, menyemangatimu, dan menjadi tempatmu bersandar saat kamu lelah 🤍.
-
-Semoga setiap langkahmu penuh berkah, dan setiap impianmu perlahan menjadi kenyataan ✨. Kamu punya hati yang tulus, senyum yang menenangkan, dan jiwa yang cantik luar dalam. Dunia butuh lebih banyak orang sepertimu 🌷.
-
-Aku percaya sepenuhnya padamu. Kamu kuat, hebat, dan pantas mendapatkan yang terbaik 💪. Jangan pernah ragukan dirimu sendiri, karena kamu adalah cahaya dalam hidup banyak orang — termasuk hidupku 💞.
-
-Jika suatu hari kamu merasa ragu atau takut, ingatlah bahwa aku selalu mendoakanmu agar dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus. Termasuk cintaku padamu ❤️.
-
+Jujur aja kakak bingung mau ngasih apa. Tapi kata orang, Hal paling tulus yang bisa diberikan seseorang adalah doa 🤲🏻 dan kata baik dan perasaan yang tulus tidak selalu butuh hadiah🎁, cukup kata yang jujur dari hati🩵
+Satu hal yang paling kakak suka dari adek adalah: “Sahrul is Sahrul🩵.” Di mana pun dan kapan pun, adek tetap jadi diri sendiri dan berani jujur sama diri sendiri, dari awal kita kenal.  Simpel, tapi menjadi diri sendiri di dunia yang menuntut kita untuk berpura-pura adalah sebuah keberanian yang paling indah.  Dan enggak semua orang punya itu — and I truly love it 🩵
+Dibandingkan sekadar rasa cinta dan sayang, sebenarnya rasa kakak lebih ke menghargai dan menghormati adek sebagai pribadi yang berharga di kehidupan kakak.  Karena rasa hormat adalah bentuk cinta yang paling dewasa dan kasih sayang yang paling tenang adalah kasih sayang yang dilandasi rasa hormat.
   `;
 
   return (
@@ -83,12 +76,12 @@ Jika suatu hari kamu merasa ragu atau takut, ingatlah bahwa aku selalu mendoakan
                 animate={{ scale: [1, 1.1, 1], opacity: [0.9, 1, 0.9] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                <div className="text-[12rem] select-none text-center">❤️</div>
+                <div className="text-[12rem] select-none text-center">🤍</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Shinta Rahma 💖
+                  Sahrul Wijaya Rambe 🤍
                 </div>
                 <div className="text-white text-lg text-center mt-4">
-                  My Heart Belongs to you, Honey🥹
+                  You will always be remembered with love 🤍
                 </div>
               </motion.div>
             </motion.div>
